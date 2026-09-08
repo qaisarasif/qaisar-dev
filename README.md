@@ -10,5 +10,5 @@
 [Visit Portfolio](https://qaisarasif.github.io/qaisar-dev)
 
 ## Contact
-Email: qaisar@example.com  
-LinkedIn: linkedin.com/in/qaisar
+Email: qasifqaisar8888@gmail.com  
+  LinkedIn: [linkedin.com/in/qaisar](https://www.linkedin.com/in/qaisar-asif/)
