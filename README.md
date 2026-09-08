@@ -1,6 +1,5 @@
 # Qaisar Developer Portfolio
 
-Ye mera personal portfolio hai jismein web development aur WordPress projects show kiye gaye hain.
 
 ## Skills
 - HTML, CSS, JavaScript
