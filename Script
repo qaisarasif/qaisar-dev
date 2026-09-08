@@ -1,0 +1,18 @@
+// Auto-update footer year
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// If an image is missing (e.g. before you've added your own photos/screenshots),
+// swap it for a plain placeholder instead of showing a broken image icon.
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('error', () => {
+    img.style.display = 'flex';
+    img.style.alignItems = 'center';
+    img.style.justifyContent = 'center';
+    img.style.background = '#1e2330';
+    img.style.color = '#9aa1b0';
+    img.style.fontFamily = "'Space Mono', monospace";
+    img.style.fontSize = '.8rem';
+    img.alt = img.alt || 'Image';
+    img.insertAdjacentHTML('afterend', '');
+  }, { once: true });
+});
