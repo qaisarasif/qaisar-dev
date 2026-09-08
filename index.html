@@ -1,29 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Qaisar Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qaisar — WordPress & WooCommerce Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Qaisar — Web Developer</h1>
-    <p>WordPress WordPress & WooCommerce Developer | Responsive Web Design</p>
-  </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-list">
-      <a href="https://hepreciselab.com" target="_blank" class="project-btn">hepreciselab.com</a>
-      <a href="https://nailimpress.eu" target="_blank" class="project-btn">nailimpress.eu</a>
-      <a href="https://telesis.homes" target="_blank" class="project-btn">telesis.homes</a>
-      <a href="https://healthandco.mt" target="_blank" class="project-btn">healthandco.mt</a>
-      <a href="https://completegardensolutions.co.nz" target="_blank" class="project-btn">completegardensolutions.co.nz</a>
-      <a href="https://nulifeair.com.au" target="_blank" class="project-btn">nulifeair.com.au</a>
+<div class="noise"></div>
+
+<header class="hero" id="top">
+  <nav class="nav">
+    <span class="nav-mark">QR</span>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero-content">
+    <div class="hero-photo">
+      <!-- PROFILE IMAGE: replace src with your photo, e.g. images/profile.jpg -->
+      <img src="images/profile.jpg" alt="Qaisar" id="profile-img">
+    </div>
+    <div class="hero-text">
+      <p class="hero-eyebrow">WordPress &amp; WooCommerce Developer</p>
+      <h1>Qaisar builds<br>fast, responsive<br><span class="accent">WordPress sites.</span></h1>
+      <p class="hero-sub">Six live client stores and business sites across health, homes, gardens &amp; retail — built with clean HTML, CSS and JavaScript on top of WordPress.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="mailto:qaisar.dev@gmail.com" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="work" class="section">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>Live sites built and shipped for real clients.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <a class="project-card" href="https://hepreciselab.com" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/hepreciselab.jpg -->
+          <img src="images/hepreciselab.jpg" alt="hepreciselab.com screenshot">
+        </div>
+        <div class="project-info">
+          <h3>hepreciselab.com</h3>
+          <p>Health &amp; lab services site</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://nailimpress.eu" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/nailimpress.jpg -->
+          <img src="images/nailimpress.jpg" alt="nailimpress.eu screenshot">
+        </div>
+        <div class="project-info">
+          <h3>nailimpress.eu</h3>
+          <p>Beauty &amp; nail care store</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://telesis.homes" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/telesis.jpg -->
+          <img src="images/telesis.jpg" alt="telesis.homes screenshot">
+        </div>
+        <div class="project-info">
+          <h3>telesis.homes</h3>
+          <p>Real estate &amp; homes site</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://healthandco.mt" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/healthandco.jpg -->
+          <img src="images/healthandco.jpg" alt="healthandco.mt screenshot">
+        </div>
+        <div class="project-info">
+          <h3>healthandco.mt</h3>
+          <p>Health &amp; wellness brand</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://completegardensolutions.co.nz" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/gardensolutions.jpg -->
+          <img src="images/gardensolutions.jpg" alt="completegardensolutions.co.nz screenshot">
+        </div>
+        <div class="project-info">
+          <h3>completegardensolutions.co.nz</h3>
+          <p>Garden &amp; landscaping services</p>
+        </div>
+      </a>
+
+      <a class="project-card" href="https://nulifeair.com.au" target="_blank" rel="noopener">
+        <div class="project-thumb">
+          <!-- PROJECT IMAGE: images/nulifeair.jpg -->
+          <img src="images/nulifeair.jpg" alt="nulifeair.com.au screenshot">
+        </div>
+        <div class="project-info">
+          <h3>nulifeair.com.au</h3>
+          <p>Air treatment &amp; HVAC products</p>
+        </div>
+      </a>
+
     </div>
   </section>
 
-  <footer>
-    <p>📧 qaisar.dev@gmail.com | 🔗 linkedin.com/in/qaisar-dev</p>
-  </footer>
+  <section id="stack" class="section stack-section">
+    <div class="section-head">
+      <h2>Stack</h2>
+      <p>What each build is made of.</p>
+    </div>
+    <ul class="stack-list">
+      <li><span>01</span>WordPress</li>
+      <li><span>02</span>WooCommerce</li>
+      <li><span>03</span>HTML5</li>
+      <li><span>04</span>CSS3</li>
+      <li><span>05</span>JavaScript</li>
+      <li><span>06</span>Responsive Design</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer id="contact" class="footer">
+  <div class="footer-inner">
+    <h2>Let's build the next one.</h2>
+    <div class="footer-links">
+      <a href="mailto:qaisar.dev@gmail.com">qaisar.dev@gmail.com</a>
+      <a href="https://linkedin.com/in/qaisar-dev" target="_blank" rel="noopener">linkedin.com/in/qaisar-dev</a>
+    </div>
+    <p class="footer-note">&copy; <span id="year"></span> Qaisar. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
