@@ -221,7 +221,9 @@ img{ display:block; max-width:100%; }
   #top{
     padding-bottom:0 !important;
   }
-  
+  .footer{
+  padding-top:30px !important;
+  }
 }
 @media (max-width:720px){
   .hero-content{
