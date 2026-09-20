@@ -204,6 +204,16 @@ img{ display:block; max-width:100%; }
 .footer-note{ color:var(--text-dim); font-size:.85rem; margin-top:40px; }
 
 /* ===== Responsive ===== */
+@media (min-width:1024px){
+
+  .hero-photo img{
+    width:100%;
+    min-height:500px;
+}
+  .hero-content{
+    grid-template-columns: 350px 1fr !important;
+  }
+}
 @media (max-width:720px){
   .hero-content{
     grid-template-columns:1fr;
